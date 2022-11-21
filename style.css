@@ -1,0 +1,20 @@
+input {
+    padding:   20px 120px; 
+}
+
+button {
+    margin: auto;
+    padding: 20px 40px;
+    font-size: 2em;
+    color: black;   
+}
+
+.container {
+    background-color: royalblue;
+    width: 1000px;
+    margin-left: 25%;
+}
+
+.kalkulacka {
+    margin-left: 25%;
+}
