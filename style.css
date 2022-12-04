@@ -66,3 +66,12 @@
 .btn.bg-orange {
     background: #ff9501;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    text-align: center;
+}
