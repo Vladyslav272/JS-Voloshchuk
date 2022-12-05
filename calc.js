@@ -74,7 +74,7 @@ document.querySelector('.buttons').onclick = (event) =>{
                     return;
                 }
                 a = a / b;
-                break;
+                break; 
             case "+/-":
                 if (sign === '+/-'){
                     out.textContent = 'Autor nevěděl jak to udělat';

@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(54, 54, 54);
+}
+
 .calc {
     margin: 50px auto;
     width: 300px;
@@ -72,6 +76,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(36, 36, 36);
+    color: white;
     text-align: center;
 }
