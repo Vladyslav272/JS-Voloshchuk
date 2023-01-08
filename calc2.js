@@ -55,12 +55,12 @@ isNumber = function(value) {
 };
     
 isOperator = function(value) {
-    return value === '/' || value === '*' || value === '+' || value === '-';
+    return value === '/' || value === 'X' || value === '+' || value === '-';
 };
 
 operate = function(a, b, operation){
     console.log(a, b, operation);
-    if (operation === "+") return a + b;
+    if (operation === "+") return (+a) + (+b);
     if (operation === "-") return a - b;
     if (operation === "X") return a * b;
     if (operation === "/") return a / b;
